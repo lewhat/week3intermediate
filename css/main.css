@@ -1,7 +1,9 @@
 * {
 	background-color: #ececec;
 }
-
+hr {
+	width: 100%;
+}
 .name {
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 20px;
@@ -19,9 +21,10 @@
 }
 .list {
 	display: inline-block;
-	float: right;
 	color: #78808b;
-
+	position: relative;
+	top: 10px;
+	float: right;
 }
 .list li {
 	display: inline;
